@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data & outputs
+data/
+datasets/
+runs/
+results/
+outputs/
+
+# Videos
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# Model weights
+*.pt
+*.onnx
+
+# Archives
+*.zip
+*.tar
+*.gz
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
