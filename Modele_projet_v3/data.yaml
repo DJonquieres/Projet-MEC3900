@@ -1,0 +1,13 @@
+train: data/train/images
+val: data/valid/images
+test: data/test/images
+
+nc: 2
+names: ['Volleyball', 'ball']
+
+roboflow:
+  workspace: project-9c0mz
+  project: volleyball-ball
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/project-9c0mz/volleyball-ball/dataset/1
